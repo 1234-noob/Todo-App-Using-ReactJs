@@ -1,7 +1,10 @@
 import TodoItem from "./TodoItem";
-import React from "react";
+import React, { useContext } from "react";
+import { TodoItemsContext } from "../store/todo-items-store";
 
-const TodoItems = ({ todoItems, onDeleteClick }) => {
+const TodoItems = () => {
+  const { todoItems } = useContext(TodoItemsContext);
+
   return (
     <>
       <div>
@@ -10,7 +13,6 @@ const TodoItems = ({ todoItems, onDeleteClick }) => {
             key={item.name}
             todoDate={item.dueDate}
             todoName={item.name}
-            onDeleteClick={onDeleteClick}
           ></TodoItem>
         ))}
       </div>
