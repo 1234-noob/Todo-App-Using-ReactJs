@@ -1,4 +1,5 @@
-Todo-App was made Using React Js and Tailwind Css .Main purpose for making this is to underStand the Concepts of React JS such as Hooks(useStates, useRef) , Context API, Passing Children as Props ,Form and Event Handling. Usage of useState was done in Version 1 of the app.
+Todo-App was made Using React Js and Tailwind Css .Main purpose for making this is to underStand the Concepts of React JS such as Hooks(useStates, useRef) , Context API, Passing Children as Props ,Form and Event Handling. Usage of useState was done in Version 1 of the app.This is the Final Version of the App
+
 
 
 
