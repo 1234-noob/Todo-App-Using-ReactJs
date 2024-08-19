@@ -11,6 +11,7 @@ function AddTodo() {
     e.preventDefault();
     const todoName = todoNameElement.current.value;
     const todoDate = todoDateElement.current.value;
+    console.log(todoName, todoDate);
     if (todoDate !== "" && todoName !== "") {
       addNewItems(todoName, todoDate);
       todoNameElement.current.value = "";
